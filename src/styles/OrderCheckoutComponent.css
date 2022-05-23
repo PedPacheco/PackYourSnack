@@ -1,0 +1,31 @@
+.order-checkout {
+    width: 680px;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  
+  .order-checkout h2 {
+    width: 332px;
+    height: 28px;
+    font-weight: 400;
+  
+    margin-top: 16px;
+  
+    color: #8e0000;
+  }
+  
+  .resume-order h2 {
+    width: 227px;
+  
+    color: #000000;
+  
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+  
+  .resume-order ul {
+    list-style: none;
+  }

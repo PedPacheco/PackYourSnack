@@ -1,0 +1,96 @@
+.checkout {
+    width: 480px;
+    height: 560px;
+    border-radius: 4px;
+  
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: space-between;
+    align-items: center;
+  
+    padding: 20px;
+  
+    background: #ffc107;
+  }
+  
+  .checkout h2 {
+    align-self: flex-start;
+  
+    width: 300px;
+    height: 30px;
+  
+    color: #000000;
+  
+    font-family: "Lobster", sans-serif;
+  }
+  
+  .payment-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .payment-form fieldset {
+    border: 0;
+  }
+  
+  .form-field {
+    display: flex;
+    flex-direction: column;
+  
+    margin-bottom: 8px;
+  }
+  
+  .form-field label {
+    margin-bottom: 8px;
+  }
+  
+  .form-field input {
+    width: 432px;
+    height: 35px;
+  
+    border: 1px solid #000000;
+    border-radius: 4px;
+  
+    padding: 0 16px;
+  }
+  
+  .form-field input::placeholder {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .card-info {
+    display: flex;
+  }
+  
+  #expiration-date {
+    width: 285px;
+  
+    margin-right: 16px;
+  }
+  
+  #cvv {
+    width: 131px;
+  }
+  
+  .checkout button {
+    width: 320px;
+    height: 52px;
+    border-radius: 40px;
+    border: 0;
+    white-space: nowrap;
+    cursor: pointer;
+  
+    background: rgba(198, 40, 40, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+  
+    font-weight: 400;
+    font-family: "Roboto";
+  }
+  
